@@ -1,0 +1,355 @@
+{
+  "featured": [
+    {
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/javafest_speaker_2.JPG",
+      "title": "Java Fest Speaker",
+      "description": "Gave speech on JavaFest'2024",
+      "exploreMoreLink": "https://www.linkedin.com/feed/update/urn:li:activity:7267232043325878272/"
+    },
+    {
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/bjug-google.png",
+      "title": "Community speaker @ Bangalore Java User Group",
+      "description": "Given a speech at 'Machine Learning using Java using JSR 381' @ Google",
+      "exploreMoreLink": "https://www.linkedin.com/feed/update/urn:li:activity:7253463209204961281/"
+    },
+    {
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/epam_speech.png",
+      "title": "Community speaker @ Tamil Nadu Java User Group",
+      "description": "Speech regarding sqlcomponents.org. Given an insight of what can be done better in the sql world.",
+      "exploreMoreLink": "https://www.linkedin.com/feed/update/urn:li:activity:7245789459349184512/"
+    },
+    {
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/bestAlumini.png",
+      "title": "‘Honored and Grateful!’",
+      "description": "\"Sharing knowledge is where we grow\" – this is a principle I hold close, and I am committed to continuing my support for students as we all strive for excellence together.",
+      "exploreMoreLink": "https://www.linkedin.com/feed/update/urn:li:activity:7227000538649796609/"
+    },
+    {
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/getting_award_nference_head.png",
+      "title": "Do What you love, Love what you do!",
+      "description": "\uD83C\uDFC6One of the highlights of this experience was being recognized by Mr. Karthik Thenalur the head of nference Coimbatore.",
+      "exploreMoreLink": "https://www.linkedin.com/feed/update/urn:li:activity:7211085970249502721/"
+    },
+    {
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/telesko_hello_alien.png",
+      "title": "\"Bangalore JUG [Java User Groups]\", - REDHAT office! ",
+      "description": "Hello, Aliens! Look whom I met - Navin Reddy. The reason Java became easy for me in the whole picture as a beginner is because of his valuable videos on YouTube.",
+      "exploreMoreLink": "https://www.linkedin.com/feed/update/urn:li:activity:7190027381053501441/"
+    },
+    {
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/mentor_sece.png",
+      "title": "Follow the Passion",
+      "description": "Here’s to the beautiful blend of passion and profession, coding and teaching, and the endless possibilities when we embrace the best of both worlds",
+      "exploreMoreLink": "https://www.linkedin.com/feed/update/urn:li:activity:7172407536162160641/"
+    }
+  ],
+  "basics": {
+    "name": "Hari Nikesh R",
+    "label": "Software Engineer",
+    "profileImage": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/javafest_speech.jpeg",
+    "labelImage": "https://lh7-us.googleusercontent.com/_YgXxtXHkVwWKKPaqSU3fPttbmhuPml0-XQVzQA05XQeRYopRhHNtzHKusdH8oxcGyGaHKvjR6RMNhDe5zPpHVHhgtLQ15AwN4lGfgY4RLrCOVa8JxSO9ZZFrDK3CYb5YoYmCBeC3rT2IkFUb5fkWpk",
+    "image": "",
+    "email": "hari.nikesh.r.cce@gmail.com",
+    "phone": "+91 6369782592",
+    "resumeLink": "https://drive.usercontent.google.com/uc?id=1e7-ag_Mdwfo4qp9kAQVFNX-tbqgstGt6&export=download",
+    "url": "",
+    "summary": "Experienced Android developer with a passion for building beautiful and performant mobile applications.",
+    "location": {
+      "address": "Coimbatore",
+      "postalCode": "642001",
+      "city": "Coimbatore",
+      "countryCode": "IN",
+      "region": "TN"
+    },
+    "about": {
+      "title": "Software Engineer with Passion",
+      "bio": "Highly Skilled Software Developer with a Passion for Programming.\n Innovative, adaptable, and driven, I am a highly skilled software developer who is capable of developing software from scratch. With a deep love for programming and a knack for quickly learning and adapting to new environments, I bring a wealth of expertise and a passion for technological advancement to every project I undertake.\n I hold a degree in Computer Science or a related field, which has provided me with a strong foundation in software engineering principles, algorithms, and data structures. Furthermore, I actively pursue ongoing learning opportunities, staying updated with the latest advancements in the industry.",
+      "imageUrl": [
+        "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/javafest_speech.jpeg"
+      ]
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Hari Nikesh R",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+        "url": "https://www.linkedin.com/in/hari-nikesh-r-930bb723a/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Hari-Nikesh-R",
+        "logo": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+        "url": "https://github.com/Hari-Nikesh-R"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "SQL Component",
+      "description": "SQL Powerhouse is a cutting-edge persistence solution designed to seamlessly integrate SQL into modern Java applications. It enables developers to execute complex SQL operations with high performance and scalability, all while maintaining efficient, clean Java code. Whether you're building cloud-native applications or enterprise software, SQL Powerhouse bridges the gap between powerful SQL operations and modern Java development, delivering zero-compromise, future-ready solutions.",
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/sql_component.png",
+      "comment": "A comment about the item.",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "level": "Expert",
+          "percentage": 60
+        },
+        {
+          "name": "Jetpack Compose",
+          "level": "Advanced",
+          "percentage": 60
+        },
+        {
+          "name": "Android SDK",
+          "level": "Expert",
+          "percentage": 80
+        }
+      ],
+      "links": [
+        {
+          "mediaResUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+          "mediaUrl": "https://github.com/sqlcomponents"
+        },
+        {
+          "mediaResUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/sql_component.png",
+          "mediaUrl": "https://sqlcomponents.org/"
+        }
+      ]
+    },
+    {
+      "title": "Blibli Salesman app - Blikanvas",
+      "description": "Simplify sales by assisting sales executives with daily tasks, offering on-demand location tracking, report generation, and revenue insights.\n",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/9912/9912615.png",
+      "comment": "A comment about the item.",
+      "links": []
+    },
+    {
+      "title": "DlWidgets",
+      "description": "Streamlined Development Workflow:\nDLWidgets streamlines the development workflow by offering a comprehensive collection of ready-to-use widgets, eliminating the need to create UI elements from scratch. With DLWidgets, developers can quickly prototype and assemble user interfaces, saving substantial development time and effort. By reducing the code overhead, the library enhances the overall development process, allowing developers to focus on core application logic and functionality.\n\nCustomizable and Extensible:\nDLWidgets embraces the flexibility and adaptability that Flutter offers. Each widget in the library is highly customizable, enabling developers to effortlessly tailor the appearance and behavior to align with their application's unique requirements. By leveraging the powerful theming capabilities of Flutter, DLWidgets ensures seamless integration with existing app styles and themes, ensuring a consistent and polished user experience.\n\nDLWidgets boasts an extensive selection of feature-rich widgets carefully crafted to cater to various application needs. From complex forms and interactive charts to animated transitions and responsive layouts, the library covers a wide spectrum of UI elements essential for building modern and engaging applications. With DLWidgets, developers can effortlessly add advanced functionalities to their applications without reinventing the wheel, further speeding up the development process.",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/9912/9912615.png",
+      "comment": "A comment about the item.",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "level": "Expert",
+          "percentage": 60
+        },
+        {
+          "name": "Jetpack Compose",
+          "level": "Advanced",
+          "percentage": 60
+        },
+        {
+          "name": "Android SDK",
+          "level": "Expert",
+          "percentage": 80
+        }
+      ],
+      "links": [
+        {
+          "mediaResUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+          "mediaUrl": "https://github.com/Hari-Nikesh-R/DlWidgets"
+        },
+        {
+          "mediaResUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+          "mediaUrl": "https://github.com/Hari-Nikesh-R"
+        }
+      ]
+    },
+    {
+      "title": "Blibli Instore",
+      "description": "Blibli Instore is a project by Blibli, an Indonesian e-commerce company, to bring its online shopping experience to physical stores. The project was launched in 2019 and has since expanded to over 100 stores across Indonesia.\n\nInstore stores are designed to look and feel like traditional brick-and-mortar stores, but they also offer features that are unique to Blibli. For example, customers can use Blibli's app to scan barcodes on products to find out more information about them, or to make purchases directly from the app.\n\nBlibli Instore is part of a larger trend in e-commerce, as more and more companies are looking to integrate their online and offline businesses. By bringing its online shopping experience to physical stores, Blibli is hoping to reach a wider audience and provide a more convenient shopping experience for its customers.",
+      "imageUrl": "https://harirportfoliobucket.s3.ap-south-1.amazonaws.com/assets/blibli_instore.png",
+      "comment": "Associated with Quinbay Technologies",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "level": "Expert",
+          "percentage": 60
+        },
+        {
+          "name": "Jetpack Compose",
+          "level": "Advanced",
+          "percentage": 60
+        },
+        {
+          "name": "Android SDK",
+          "level": "Expert",
+          "percentage": 80
+        }
+      ],
+      "links": [
+        {
+          "mediaResUrl": "https://i1.wp.com/9to5google.com/wp-content/uploads/sites/4/2022/07/current-google-play-icon.jpg",
+          "mediaUrl": "https://play.google.com/store/apps/details?id=com.blibli.instore.byok&hl=en"
+        }
+      ]
+    },
+    {
+      "title": "Csv Excel Matcher",
+      "description": "Easiest way to compare the column of two excel file or two CSV files and export the result as a excel file.\n",
+      "imageUrl": "",
+      "comment": "Associated with Dosmartie",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "level": "Expert",
+          "percentage": 60
+        },
+        {
+          "name": "Jetpack Compose",
+          "level": "Advanced",
+          "percentage": 60
+        },
+        {
+          "name": "Android SDK",
+          "level": "Expert",
+          "percentage": 80
+        }
+      ],
+      "links": [
+        {
+          "mediaResUrl": "https://www.computerhope.com/issues/pictures/google-drive-logo.png",
+          "mediaUrl": "https://drive.google.com/file/d/1WSWZ0kLmNXXITjE-ItT83VZVI51saIHt/view"
+        },
+        {
+          "mediaResUrl": "https://fs.buttercms.com/resize=width:885/bswz3NJzT6WvKJHUc0Ii",
+          "mediaUrl": "https://pypi.org/project/csv-excel-matcher/"
+        }
+      ]
+    },
+    {
+      "title": "Frisky Cards",
+      "description": "Engaging memory-based card matching game designed to test players' cognitive skills. The objective is to find pairs of matching cards by flipping them one at a time, relying on memory and concentration to remember each card's position.",
+      "imageUrl": "",
+      "comment": "Associated with DoSmartie",
+      "skills": [
+        {
+          "name": "Flutter",
+          "level": "Expert",
+          "percentage": 85
+        },
+        {
+          "name": "Android Development",
+          "level": "Advanced",
+          "percentage": 85
+        },
+        {
+          "name": "Android Studio",
+          "level": "Expert",
+          "percentage": 80
+        },
+        {
+          "name": "Flutter sdk",
+          "level": "Expert",
+          "percentage": 80
+        }
+      ],
+      "links": [
+        {
+          "mediaResUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+          "mediaUrl": "https://github.com/Hari-Nikesh-R/frisky_cards"
+        },
+        {
+          "mediaResUrl": "https://www.computerhope.com/issues/pictures/google-drive-logo.png",
+          "mediaUrl": "https://drive.google.com/file/d/1vH9a1WkNsRwcCISSW07fwwcwAYklv9PC/view"
+        },
+        {
+          "mediaResUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+          "mediaUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7259662719702716416/"
+        }
+      ]
+    },
+    {
+      "title": "AWS Lambda Tutorial",
+      "description": "An AWS Lambda Tutorial typically refers to a learning resource or project that guides individuals through the process of understanding and using AWS Lambda, a serverless computing service provided by Amazon Web Services (AWS). AWS Lambda allows you to run your code without provisioning or managing servers, making it a popular choice for building scalable and cost-effective applications.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
+      "comment": "Associated with Quinbay Technologies",
+      "skills": [
+        {
+          "name": "IntelliJ IDEA",
+          "level": "Expert",
+          "percentage": 60
+        },
+        {
+          "name": "AWS Lambda",
+          "level": "Advanced",
+          "percentage": 60
+        },
+        {
+          "name": "Amazon CloudWatch",
+          "level": "Expert",
+          "percentage": 80
+        },
+        {
+          "name": "AWS Apigateway",
+          "level": "Expert",
+          "percentage": 80
+        },
+        {
+          "name": "Java",
+          "level": "Expert",
+          "percentage": 80
+        },
+        {
+          "name": "Spring Boot",
+          "level": "Expert",
+          "percentage": 80
+        },
+        {
+          "name": "Gradle",
+          "level": "Expert",
+          "percentage": 80
+        }
+      ],
+      "links": [
+        {
+          "mediaResUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+          "mediaUrl": "https://github.com/Hari-Nikesh-R/aws-tutorial"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sri Eshwar College of Engineering",
+      "institutionWeblink": "https://www.sece.ac.in",
+      "area": "Computer and Communication Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2019-09-01",
+      "endDate": "2023-06-01",
+      "gpa": "89.20",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRsauu4fx6eQqBHLgE55JYpiZn3PG9DUD_A&s",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Mobile Application Development"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Kotlin",
+      "level": "Expert",
+      "percentage": 60
+    },
+    {
+      "name": "Jetpack Compose",
+      "level": "Advanced",
+      "percentage": 60
+    },
+    {
+      "name": "Android SDK",
+      "level": "Expert",
+      "percentage": 80
+    }
+  ],
+  "awards": [
+    {
+      "title": "Google Developer Scholarship",
+      "date": "2022-05-01",
+      "awarder": "Google",
+      "summary": "Awarded to outstanding students who demonstrate a passion for technology."
+    }
+  ]
+}
