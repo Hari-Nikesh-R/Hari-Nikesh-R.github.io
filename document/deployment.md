@@ -51,20 +51,15 @@ The site is deployed with **GitHub Actions** on every push to `main`.
 
 ### Your site URL
 
-| Repo type | Example repo | Site URL |
-|----------|--------------|----------|
-| **Project site** | `portfolio` | `https://<username>.github.io/portfolio/` |
-| **User/org site** | `<username>.github.io` | `https://<username>.github.io/` |
+- **Custom Domain:** `https://harinikeshr.dev/`
 
-The workflow sets `baseURL` automatically from the repo name and owner.
+The workflow and site configuration are configured with `baseURL = "https://harinikeshr.dev/"`.
 
-### Custom domain (optional)
+### Custom domain
 
-1. In the repo: **Settings** → **Pages** → **Custom domain**, enter your domain and follow GitHub’s DNS instructions.
-2. Set the same base URL in the site:
-   - Either in `mysite/hugo.toml`:  
-     `baseURL = "https://yourdomain.com/"`
-   - Or add a step in the workflow to pass `baseURL` (e.g. from a repo variable or secret) into the `hugo --baseURL` command.
+1. In the repo: **Settings** → **Pages** → **Custom domain**, ensure `harinikeshr.dev` is configured and HTTPS is enforced.
+2. The domain is configured in `mysite/static/CNAME` and `CNAME` at repository root.
+3. Base URL is set to `https://harinikeshr.dev/` in `mysite/hugo.toml`, `mysite/config/_default/hugo.toml`, and `.github/workflows/hugo-pages.yml`.
 
 ---
 

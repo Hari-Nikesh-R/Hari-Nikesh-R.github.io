@@ -8,6 +8,7 @@ Detailed guides are in the **`document/`** folder:
 
 - **[Deployment](document/deployment.md)** — Local dev, GitHub Pages, custom domain, troubleshooting.
 - **[Adding content](document/adding-content.md)** — New posts, pages, images, sections, menu, and homepage.
+- **[SEO & Indexing](document/seo-and-indexing.md)** — Google Search Console, Bing Webmaster, sitemaps, and indexing setup.
 
 ## Deploy to GitHub Pages
 
@@ -22,10 +23,8 @@ Detailed guides are in the **`document/`** folder:
    - **Actions** → **Deploy Hugo to GitHub Pages** → **Run workflow**.
 
 4. **Site URL**
-   - Project repo (e.g. `portfolio`):  
-     `https://<your-username>.github.io/portfolio/`
-   - User/org site repo (`<username>.github.io`):  
-     `https://<your-username>.github.io/`
+   - Custom domain:
+     `https://harinikeshr.dev/`
 
 ## Local dev
 

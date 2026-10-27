@@ -6,5 +6,6 @@ Documentation for the portfolio site: deployment, adding content, and using the 
 |----------|-------------|
 | [Deployment](deployment.md) | Deploy to GitHub Pages, local development, and troubleshooting |
 | [Adding content](adding-content.md) | Add posts, pages, images, and update the homepage and menu |
+| [SEO & Indexing](seo-and-indexing.md) | Google Search Console, Bing Webmaster, sitemaps, and metadata |
 
 **Site stack:** Hugo + Blowfish theme. Content lives in `mysite/content/`; images in `mysite/static/images/` and `mysite/assets/images/`.
