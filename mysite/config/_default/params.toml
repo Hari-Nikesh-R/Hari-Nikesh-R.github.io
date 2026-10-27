@@ -20,6 +20,9 @@ replyByEmail = false
 # mainSections = ["section1", "section2"]
 # robots = ""
 
+description = "Hari Nikesh R — Senior Software Engineer & AI Engineer. Technical speaker, community organizer, and open-source enthusiast specializing in Java, Spring Boot, AI, and distributed systems."
+keywords = ["Hari Nikesh R", "Hari Nikesh", "Senior Software Engineer", "AI Engineer", "Java", "Spring Boot", "Distributed Systems", "Machine Learning", "Tech Speaker", "Tamil Nadu JUG", "Bangalore JUG", "Portfolio"]
+
 disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
@@ -27,7 +30,7 @@ disableTextInHeader = false
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
-defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+defaultSocialImage = "images/profile_speaker_image.png" # used as default for social media sharing (Open Graph and Twitter)
 hotlinkFeatureImage = false
 # imagePosition = "50% 50%"
 
@@ -171,8 +174,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # globalWidgetPosition = "right"
 
 [verification]
-  # google = ""
-  # bing = ""
+  google = "" # Paste Google Search Console verification code here
+  bing = ""   # Paste Bing Webmaster verification code here
   # pinterest = ""
   # yandex = ""
   # fediverse = ""

@@ -11,8 +11,7 @@ title = "Hari Nikesh R"
   dateFormat = "2 January 2006"
   logo = "images/android-logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  description = "Hari Nikesh R — Senior Software Engineer & AI Engineer. Technical speaker, community organizer, and open-source enthusiast specializing in Java, Spring Boot, AI, and distributed systems."
 
 [params.author]
   name = "Hari Nikesh R"
@@ -20,7 +19,8 @@ title = "Hari Nikesh R"
   imageQuality = 96
   headline = "Senior Software Engineer — AI Engineer"
   links = [
-    { linkedin = "https://www.linkedin.com/in/hari-nikesh-r-930bb723a/" }
+    { linkedin = "https://www.linkedin.com/in/hari-nikesh-r-930bb723a/" },
+    { github = "https://github.com/Hari-Nikesh-R" }
   ]
   # More links (uncomment and edit as needed):
   # links = [
