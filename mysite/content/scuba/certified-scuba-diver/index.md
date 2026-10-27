@@ -11,7 +11,7 @@ featureimage: "images/scuba_open_water/scuba_open_water_1.png"
 
 I am a certified **PADI Open Water Diver**, holding the international qualification for **ISO 24801-2: Diver Level 2 (Autonomous Diver)**. This certification marks the completion of a comprehensive training program that balances technical knowledge with practical underwater skills.
 
-![PADI Open Water Diver](/portfolio/images/scuba_open_water/scuba_open_water_1.png)
+![PADI Open Water Diver](/images/scuba_open_water/scuba_open_water_1.png)
 
 # Credential Details
 
@@ -32,7 +32,7 @@ As an Open Water Diver, I am trained and certified to:
     - Buoyancy control and neutral trim execution.
     - Underwater navigation using natural references and compasses.
 
-![Scuba Skills](/portfolio/images/scuba_open_water/scuba_open_water_3.png)
+![Scuba Skills](/images/scuba_open_water/scuba_open_water_3.png)
 
 # The Neil Island Experience
 
@@ -41,6 +41,6 @@ My certification was completed in the vibrant waters of **Neil Island (Shaheed D
 - Pristine coral ecosystems and varying current conditions.
 - Mastery of diving fundamentals in one of India's premier diving destinations.
 
-![Underwater Exploration](/portfolio/images/scuba_open_water/scuba_open_water_2.png)
+![Underwater Exploration](/images/scuba_open_water/scuba_open_water_2.png)
 
 Scuba diving has become a vital part of my personal growth, offering a unique perspective on focus, environmental stewardship, and the discipline required to navigate complex, high-stakes environments.

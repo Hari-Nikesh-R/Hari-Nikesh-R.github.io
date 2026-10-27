@@ -11,7 +11,7 @@ featureimage: "images/ad_padi/ad_padi_1.png"
 
 I am a certified **PADI Advanced Open Water Diver** (Adventure Diver). This certification builds upon the foundational skills of an Open Water Diver and emphasizes experiential learning, deep-sea exploration, and precision underwater navigation.
 
-![Advanced Open Water Diver](/portfolio/images/ad_padi/ad_padi_1.png)
+![Advanced Open Water Diver](/images/ad_padi/ad_padi_1.png)
 
 # Credential Details
 
@@ -28,7 +28,7 @@ I am a certified **PADI Advanced Open Water Diver** (Adventure Diver). This cert
 - **Underwater Navigation**: Mastered compass and natural navigation techniques to find routes and return points reliably.
 - **Additional dives** focused on buoyancy control, resource management, and environment-based diving.
 
-![Deep Dive in Lakshadweep](/portfolio/images/ad_padi/ad_padi_2.png)
+![Deep Dive in Lakshadweep](/images/ad_padi/ad_padi_2.png)
 
 # Skills Acquired
 
@@ -45,7 +45,7 @@ I am a certified **PADI Advanced Open Water Diver** (Adventure Diver). This cert
 - In-depth understanding of equipment handling and simulated failure scenarios.
 - High environmental awareness and controlled, responsible interaction with delicate marine ecosystems.
 
-![Scuba Navigation](/portfolio/images/ad_padi/ad_padi_3.png)
+![Scuba Navigation](/images/ad_padi/ad_padi_3.png)
 
 # Professional Relevance
 

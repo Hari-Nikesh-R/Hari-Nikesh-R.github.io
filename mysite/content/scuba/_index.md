@@ -18,5 +18,5 @@ Beyond the screen, I find balance and inspiration in the ocean. Scuba diving is 
 
 Featured:
 
-- [PADI Advanced Open Water Diver](/portfolio/scuba/advanced-open-water-diver/)
-- [PADI Open Water Diver](/portfolio/scuba/certified-scuba-diver/)
+- [PADI Advanced Open Water Diver](/scuba/advanced-open-water-diver/)
+- [PADI Open Water Diver](/scuba/certified-scuba-diver/)
