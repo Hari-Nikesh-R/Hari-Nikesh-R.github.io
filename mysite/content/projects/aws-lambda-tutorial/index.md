@@ -5,6 +5,8 @@ draft: false
 description: "Learning project and reference implementation for building serverless workflows on AWS Lambda."
 tags: ["projects", "aws", "lambda", "java", "spring-boot"]
 summary: "A practical serverless tutorial using AWS Lambda and Java."
+weight: 16
+projectCategories: ["backend"]
 ---
 
 ## Overview

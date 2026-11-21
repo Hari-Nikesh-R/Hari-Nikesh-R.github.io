@@ -2,14 +2,17 @@
 title: "IPL Fantasy Auction App"
 date: 2026-08-16
 draft: false
-description: "A Flutter companion app for real-time IPL auction bidding and budget calculations, built in 2–3 hours using Antigravity and Vibe Coding."
-tags: ["projects", "flutter", "antigravity", "ai", "vibe-coding", "mobile"]
-summary: "From pen & paper to a Flutter IPL auction companion app built with Antigravity and vibe coding."
+weight: 1
+isAiProject: true
+projectCategories: ["ai", "mobile"]
+description: "A real-time Flutter companion app for IPL auction bidding and budget calculations, built in 2–3 hours using Google Antigravity and Vibe Coding."
+tags: ["projects", "ai", "antigravity", "vibe-coding", "flutter", "mobile"]
+summary: "From pen & paper to a Flutter IPL auction companion app built with Google Antigravity and vibe coding."
 ---
 
 ## Overview
 
-**From Pen & Paper to an IPL Auction App! 🏏🔥**
+**From Pen & Paper to an AI-Assisted Flutter App! 🏏🔥**
 
 While playing an IPL auction game with friends—where each team receives a fixed purse budget to bid for players and assemble their squads—the biggest bottleneck wasn't the auction itself; it was pen, paper, and manual budget calculations!
 
@@ -22,16 +25,22 @@ Now, the TV handles the auction broadcast, mobile devices handle purse calculati
 
 > *“AI doesn't always need to solve a huge problem. Sometimes, it just needs to solve the annoying little problem right in front of you.”*
 
+## AI Engineering & Agentic Workflow
+
+- **Agent-Assisted Development:** Leveraged Google Antigravity agents to draft state management, define constraints, and iterate on UI components in real time.
+- **Vibe Coding Methodology:** Formulated natural language prompts describing domain-specific auction mechanics (budget capping, minimum squad reserve budgets, player category filters) directly into production-ready Flutter code.
+- **Rapid Prototyping Cycle:** Took the concept from an empty repository to a working multi-team companion application in a single evening session (~2–3 hours).
+
 ## Highlights & Features
 
-- **Real-Time Purse Tracking:** Automatic budget deduction, maximum bid limits, and squad count validation.
-- **Fast Turnaround:** Concept-to-working mobile app delivered in ~2–3 hours through AI-assisted pair programming and prompt engineering.
+- **Real-Time Purse Tracking:** Automatic budget deduction, dynamic maximum bid limits, and squad count validation per team.
+- **Interactive Auction Flow:** Live player assignments, undo capabilities, and team roster overviews.
 - **Companion Experience:** Complements living-room auction game setups with zero pen-and-paper friction.
 
 ## Skills / Stack
 
-- **Framework:** Flutter, Dart
-- **AI & Workflow:** Google Antigravity, Prompt Engineering, Vibe Coding
+- **AI & Workflow:** Google Antigravity, Prompt Engineering, Vibe Coding, Agentic Development
+- **Mobile Framework:** Flutter, Dart (State Management, Material Design 3)
 
 ## Links
 

@@ -5,6 +5,8 @@ draft: false
 description: "Desktop point-of-sale app designed for offline operation with cloud sync."
 tags: ["projects", "flutter", "windows", "sqlite", "firebase", "pos"]
 summary: "Offline-first desktop POS with cloud sync."
+weight: 8
+projectCategories: ["mobile", "tools"]
 ---
 
 ## Overview

@@ -1,0 +1,111 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  <header>
+    {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      {{ partial "article-meta/list.html" (dict "context" . "scope" "single") }}
+    </div>
+  </header>
+
+  {{ with .Content }}
+    <section class="prose dark:prose-invert mt-4 mb-6 max-w-full">
+      {{ . }}
+    </section>
+  {{ end }}
+
+  {{ if gt .Pages 0 }}
+    {{ $pages := .Pages.ByWeight }}
+
+    <div class="project-filter-bar not-prose mb-8" role="tablist" aria-label="Filter projects by domain">
+      <button type="button" class="project-filter-chip project-filter-chip--active" data-project-filter="all" role="tab" aria-selected="true">All Projects</button>
+      <button type="button" class="project-filter-chip project-filter-chip--ai-trigger" data-project-filter="ai" role="tab" aria-selected="false">🤖 AI & Machine Learning</button>
+      <button type="button" class="project-filter-chip" data-project-filter="mobile" role="tab" aria-selected="false">📱 Android & Mobile</button>
+      <button type="button" class="project-filter-chip" data-project-filter="backend" role="tab" aria-selected="false">☁️ Backend & Cloud</button>
+      <button type="button" class="project-filter-chip" data-project-filter="tools" role="tab" aria-selected="false">🛠️ Developer Tools</button>
+    </div>
+
+    <p class="project-filter-empty not-prose hidden mb-6 text-neutral-600 dark:text-neutral-400">
+      No projects found in this domain yet.
+    </p>
+
+    <section class="project-card-grid w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {{ range $pages }}
+        {{ $categories := .Params.projectCategories | default (slice "tools") }}
+        {{ $isAi := .Params.isAiProject | default false }}
+        <div class="project-card-item {{ if $isAi }}project-card-item--ai{{ end }}" data-project-categories="{{ delimit $categories " " }}">
+          {{ partial "article-link/card.html" . }}
+        </div>
+      {{ end }}
+    </section>
+  {{ else }}
+    <section class="mt-10 prose dark:prose-invert">
+      <p class="py-8 border-t">
+        <em>{{ i18n "list.no_articles" | emojify }}</em>
+      </p>
+    </section>
+  {{ end }}
+
+  <script>
+    (function () {
+      const chips = document.querySelectorAll("[data-project-filter]");
+      const items = document.querySelectorAll(".project-card-item");
+      const emptyState = document.querySelector(".project-filter-empty");
+      const validFilters = new Set(["all", "ai", "mobile", "backend", "tools"]);
+
+      function setActiveChip(filter) {
+        chips.forEach(function (chip) {
+          const isActive = chip.dataset.projectFilter === filter;
+          chip.classList.toggle("project-filter-chip--active", isActive);
+          chip.setAttribute("aria-selected", isActive ? "true" : "false");
+        });
+      }
+
+      function applyFilter(filter) {
+        if (!validFilters.has(filter)) {
+          filter = "all";
+        }
+
+        let visibleCount = 0;
+
+        items.forEach(function (item) {
+          const categories = (item.dataset.projectCategories || "").split(/\s+/).filter(Boolean);
+          const show = filter === "all" || categories.includes(filter);
+          item.classList.toggle("hidden", !show);
+          if (show) {
+            visibleCount += 1;
+          }
+        });
+
+        if (emptyState) {
+          emptyState.classList.toggle("hidden", visibleCount > 0);
+        }
+
+        setActiveChip(filter);
+
+        if (filter === "all") {
+          history.replaceState(null, "", location.pathname + location.search);
+        } else {
+          history.replaceState(null, "", "#" + filter);
+        }
+      }
+
+      chips.forEach(function (chip) {
+        chip.addEventListener("click", function () {
+          applyFilter(chip.dataset.projectFilter);
+        });
+      });
+
+      const initialFilter = validFilters.has(location.hash.slice(1)) ? location.hash.slice(1) : "all";
+      applyFilter(initialFilter);
+
+      window.addEventListener("hashchange", function () {
+        const filter = validFilters.has(location.hash.slice(1)) ? location.hash.slice(1) : "all";
+        applyFilter(filter);
+      });
+    })();
+  </script>
+{{ end }}

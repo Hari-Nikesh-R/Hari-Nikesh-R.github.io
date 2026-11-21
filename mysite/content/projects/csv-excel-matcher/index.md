@@ -5,6 +5,8 @@ draft: false
 description: "Python tool to compare columns across CSV/Excel files and export matched results."
 tags: ["projects", "python", "pypi", "data-tools"]
 summary: "Compare CSV/Excel columns and export the results."
+weight: 14
+projectCategories: ["tools", "backend"]
 ---
 
 ## Overview

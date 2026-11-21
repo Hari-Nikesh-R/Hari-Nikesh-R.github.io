@@ -5,6 +5,8 @@ draft: false
 description: "A Flutter widget library that speeds up UI development with customizable, production-ready components."
 tags: ["projects", "flutter", "dart", "package", "ui"]
 summary: "Reusable Flutter widgets for faster prototyping and consistent UI."
+weight: 9
+projectCategories: ["mobile", "tools"]
 ---
 
 ## Overview

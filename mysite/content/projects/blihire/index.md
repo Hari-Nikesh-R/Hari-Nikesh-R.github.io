@@ -5,6 +5,8 @@ draft: false
 description: "Backend engineering work focused on scalable APIs, reliability, and performance improvements."
 tags: ["projects", "backend", "java", "spring-boot", "ci"]
 summary: "Backend engineering: APIs, scalability, and reliability work."
+weight: 18
+projectCategories: ["backend"]
 ---
 
 ## Overview

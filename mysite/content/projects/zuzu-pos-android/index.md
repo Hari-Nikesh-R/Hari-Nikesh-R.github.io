@@ -5,6 +5,8 @@ draft: false
 description: "Android POS companion app enabling monitoring, billing, and online sync for shop operations."
 tags: ["projects", "flutter", "android", "firebase", "pos"]
 summary: "Android POS app with online sync and production internal testing."
+weight: 7
+projectCategories: ["mobile"]
 ---
 
 ## Overview

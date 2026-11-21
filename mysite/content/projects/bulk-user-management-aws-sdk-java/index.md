@@ -5,6 +5,8 @@ draft: false
 description: "Automates bulk user creation and deletion in AWS using Java SDK and IAM/Cognito workflows."
 tags: ["projects", "aws", "java", "cognito", "iam"]
 summary: "Automated bulk user provisioning/deprovisioning using AWS SDK for Java."
+weight: 15
+projectCategories: ["backend", "tools"]
 ---
 
 ## Overview

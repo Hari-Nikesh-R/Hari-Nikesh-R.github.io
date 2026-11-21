@@ -5,6 +5,8 @@ draft: false
 description: "Mobile app to simplify sales exec workflows with location tracking, reporting, and revenue insights."
 tags: ["projects", "android", "kotlin", "webview", "location"]
 summary: "Sales enablement app with location-based workflows and reporting."
+weight: 6
+projectCategories: ["mobile"]
 ---
 
 ## Overview

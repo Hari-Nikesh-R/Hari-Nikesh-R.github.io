@@ -532,3 +532,128 @@
   border-radius: 9999px;
   backdrop-filter: blur(8px);
 }
+
+
+/* ============================================================
+   Projects Section: Filter Bar & AI Project Badges
+   ============================================================ */
+
+.project-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-filter-chip {
+  appearance: none;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #334155;
+  border-radius: 9999px;
+  padding: 0.45rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-filter-chip:hover {
+  border-color: #0a66c2;
+  color: #0a66c2;
+}
+
+.project-filter-chip--active {
+  background: #0a66c2;
+  border-color: #0a66c2;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(10, 102, 194, 0.25);
+}
+
+.dark .project-filter-chip {
+  background: #1e2028;
+  border-color: #3d4459;
+  color: #cbd5e1;
+}
+
+.dark .project-filter-chip:hover {
+  border-color: #70b5f9;
+  color: #70b5f9;
+}
+
+.dark .project-filter-chip--active {
+  background: #70b5f9;
+  border-color: #70b5f9;
+  color: #1a202c;
+}
+
+.project-card-item {
+  position: relative;
+  transition: transform 0.25s ease;
+}
+
+.project-card-item .article-link--card {
+  min-height: 100%;
+}
+
+/* AI Project Highlight Border & Glow */
+.project-card-item--ai .article-link--card {
+  border: 1.5px solid rgba(139, 92, 246, 0.45) !important;
+  box-shadow: 0 4px 20px -2px rgba(124, 58, 237, 0.08);
+}
+
+.project-card-item--ai:hover .article-link--card {
+  border-color: rgba(139, 92, 246, 0.8) !important;
+  box-shadow: 0 8px 24px -2px rgba(124, 58, 237, 0.2);
+}
+
+.dark .project-card-item--ai .article-link--card {
+  border-color: rgba(167, 139, 250, 0.4) !important;
+  box-shadow: 0 4px 24px -2px rgba(167, 139, 250, 0.15);
+}
+
+.dark .project-card-item--ai:hover .article-link--card {
+  border-color: rgba(192, 132, 252, 0.8) !important;
+  box-shadow: 0 8px 30px -2px rgba(192, 132, 252, 0.3);
+}
+
+.project-card-badges {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: flex-end;
+  max-width: calc(100% - 1.5rem);
+  pointer-events: none;
+}
+
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: 0.02em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  backdrop-filter: blur(8px);
+}
+
+.project-badge--ai {
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.35);
+}
+
+.project-badge--subtle {
+  background: rgba(15, 23, 42, 0.75);
+  color: #f8fafc;
+}
+
+.dark .project-badge--subtle {
+  background: rgba(241, 245, 249, 0.85);
+  color: #0f172a;
+}

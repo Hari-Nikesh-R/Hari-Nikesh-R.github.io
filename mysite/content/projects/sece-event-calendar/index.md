@@ -5,6 +5,8 @@ draft: false
 description: "Calendar application for managing organizational events with recurring scheduling and flexible views."
 tags: ["projects", "flutter", "dart", "spring-boot", "mysql", "mongodb"]
 summary: "An event calendar app focused on usability, recurring events, and collaboration."
+weight: 11
+projectCategories: ["mobile", "backend"]
 ---
 
 ## Overview

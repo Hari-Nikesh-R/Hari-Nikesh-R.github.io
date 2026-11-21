@@ -5,6 +5,8 @@ draft: false
 description: "Community website to streamline meetups, events, and speaker proposals for Tamilnadu Java User Group."
 tags: ["projects", "community", "web", "javascript", "vite"]
 summary: "A lightweight community website for events, CFP, and chapter collaboration."
+weight: 13
+projectCategories: ["tools"]
 ---
 
 ## Overview

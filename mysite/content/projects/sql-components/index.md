@@ -5,6 +5,8 @@ draft: false
 description: "A modern persistence solution for Java that keeps SQL first, reduces boilerplate, and stays performance-focused."
 tags: ["projects", "java", "sql", "persistence", "developer-tools"]
 summary: "SQL-first Java persistence with clean code and performance focus."
+weight: 12
+projectCategories: ["backend", "tools"]
 ---
 
 ## Overview

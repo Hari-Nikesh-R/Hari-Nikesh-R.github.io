@@ -5,6 +5,8 @@ draft: false
 description: "Merchant-focused Android app enabling offline-store payments through Blibli Instore with flexible payment methods."
 tags: ["projects", "android", "kotlin", "jetpack-compose", "payments"]
 summary: "Android merchant app for in-store checkout and payment flows."
+weight: 5
+projectCategories: ["mobile"]
 ---
 
 ## Overview

@@ -4,7 +4,7 @@ date: 2026-02-26
 draft: false
 description: "Senior Software Engineer — AI Engineer. Community leader and technical speaker."
 heroCaption: "Senior Software Engineer • AI Engineer"
-heroLead: "I build scalable, high-performance mobile applications and have a deep commitment to growing vibrant knowledge-sharing communities."
+heroLead: "I build scalable, high-performance mobile applications and intelligent AI-driven systems, with a deep commitment to growing vibrant knowledge-sharing communities."
 heroButtons:
   - label: "Connect on LinkedIn"
     url: "https://www.linkedin.com/in/hari-nikesh-r-930bb723a/"
@@ -17,14 +17,15 @@ heroButtons:
 ---
 
 {{< stats >}}
-{{< stat value="3+ Years" label="Software Engineering" >}}Native Android development, Kotlin, and scalable mobile architecture.{{< /stat >}}
-{{< stat value="15+ Events" label="Community & Talks" >}}Speaking, organizing tech meetups, and hosting workshops.{{< /stat >}}
+{{< stat value="3+ Years" label="Software Engineering" >}}Native Android, Kotlin, and scalable mobile architecture.{{< /stat >}}
+{{< stat value="M.Tech AI" label="Data Science & AI" >}}IIIT Dharwad (2025–2027), Agentic AI, Google Antigravity & LLMs.{{< /stat >}}
+{{< stat value="25+ Events" label="Community & Talks" >}}Speaking, organizing tech meetups, and hosting workshops.{{< /stat >}}
 {{< stat value="400+" label="Mentees & Students" >}}Mentoring engineering students across Tamil Nadu & Bangalore.{{< /stat >}}
 {{< /stats >}}
 
 {{< feature-grid >}}
 {{< feature icon="code" title="Experience" url="experience/" label="View career journey" >}}
-Native Android engineering at Blibli, product development, SDK integrations, and scalable mobile apps.
+Senior mobile engineering at Tiket.com & Blibli, product development, SDK integrations, and scalable apps.
 {{< /feature >}}
 {{< feature icon="heart" title="Community" url="community/" label="Explore meetups & talks" >}}
 Organizing TN Java User Group, Bangalore JUG, GDG campus collaborations, and tech conferences.
@@ -33,10 +34,10 @@ Organizing TN Java User Group, Bangalore JUG, GDG campus collaborations, and tec
 Industry awards, notable alumni recognitions, hackathon jury contributions, and certificates.
 {{< /feature >}}
 {{< feature icon="graduation-cap" title="Education" url="education/" label="Academic background" >}}
-Computer Science & Engineering at Sri Eshwar College of Engineering.
+B.E. in CSE at Sri Eshwar • M.Tech in Data Science & AI at IIIT Dharwad.
 {{< /feature >}}
 {{< feature icon="fire" title="Projects" url="projects/" label="Explore projects" >}}
-Personal products, developer tools, experiments, and technical contributions.
+AI-powered applications, native Android products, developer utilities, and open-source packages.
 {{< /feature >}}
 {{< feature icon="globe" title="Scuba & Beyond" url="scuba/" label="Underwater adventures" >}}
 Certified Open Water scuba diver exploring marine ecosystems and navigation.
@@ -50,11 +51,19 @@ Certified Open Water scuba diver exploring marine ecosystems and navigation.
 </h2>
 <div class="prose dark:prose-invert max-w-none text-neutral-700 dark:text-neutral-300 text-base sm:text-lg leading-relaxed space-y-4">
 <p>
-        I am currently working at <a href="http://blibli.com" target="_blank" class="text-primary-600 dark:text-primary-400 font-semibold no-underline hover:underline">blibli.com</a> as a <strong>Native Android Developer</strong> with over <strong>3 years of hands-on experience</strong>. My journey in tech began with a passion for solving complex problems, which naturally led me to explore the world of mobile technology—particularly Android, Kotlin, and Firebase.
+        I am a <strong>Senior Software Engineer & AI Engineer</strong> currently working at <a href="https://tiket.com" target="_blank" class="text-primary-600 dark:text-primary-400 font-semibold no-underline hover:underline">Tiket.com</a> with over <strong>3 years of hands-on experience</strong> building scalable, high-performance mobile systems. My mobile engineering background includes deep expertise in <strong>Native Android, Kotlin, Jetpack Compose, and Firebase</strong>, previously contributing to critical infrastructure and omnichannel retail experiences for millions of users at Quinbay (<a href="http://blibli.com" target="_blank" class="text-primary-600 dark:text-primary-400 font-semibold no-underline hover:underline">Blibli</a>).
 </p>
 <p>
-        At Blibli, I work across critical mobile infrastructure and contribute to Android experiences that serve thousands of users within a robust omnichannel commerce ecosystem. My work includes developing native features, integrating Firebase Cloud services, and optimizing app performance in production-level environments.
+        Alongside mobile engineering, I am actively immersed in <strong>Artificial Intelligence</strong>. I am pursuing an <strong>M.Tech in Data Science & Artificial Intelligence</strong> at <a href="https://iiitdwd.ac.in" target="_blank" class="text-primary-600 dark:text-primary-400 font-semibold no-underline hover:underline">IIIT Dharwad</a> (2025–2027), grounding my practical engineering in machine learning theory, deep learning, and advanced data systems. I actively build intelligent agentic workflows and AI-driven applications using <strong>Google Antigravity</strong> and <strong>Gemini</strong>, and investigate the exciting convergence of edge AI and mobile systems—such as on-device vector search and intelligent offline-first synchronization.
 </p>
+<p>
+        Driven by community and open knowledge, I regularly speak at and organize major technical conferences and AI meetups across Google, Oracle, Thoughtworks, and EPAM Systems.
+</p>
+<div class="pt-2 flex flex-wrap gap-3">
+  <a href="about/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-600 dark:text-primary-400 hover:underline">
+    Read full About Me story &rarr;
+  </a>
+</div>
 </div>
 </div>
 
@@ -181,7 +190,7 @@ Certified Open Water scuba diver exploring marine ecosystems and navigation.
 <li><strong>Student mentor & speaker</strong> across academic faculty and industrial programs.</li>
 </ul>
 <p class="pt-2">
-        In the long run, I aim to continue growing as a <strong>technical speaker, published author, and recognized Google Developer Expert in Android</strong>, empowering developers across India and beyond through knowledge, mentorship, and community-focused innovation.
+        In the long run, I aim to continue growing as a <strong>technical speaker, published author, and recognized Google Developer Expert across Android and AI</strong>, empowering developers across India and beyond through knowledge, mentorship, and community-focused innovation.
 </p>
 </div>
 </div>

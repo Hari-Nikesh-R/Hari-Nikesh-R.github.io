@@ -5,6 +5,8 @@ draft: false
 description: "E-commerce platform services for product, orders, auth, and cart with secure, scalable backend architecture."
 tags: ["projects", "java", "spring-boot", "spring-security", "postgresql", "mongodb"]
 summary: "Backend microservices for an e-commerce fashion platform."
+weight: 17
+projectCategories: ["backend"]
 ---
 
 ## Overview

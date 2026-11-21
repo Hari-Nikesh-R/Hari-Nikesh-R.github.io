@@ -5,6 +5,8 @@ draft: false
 description: "An offline-first rehabilitation tracking app for coaches, physiotherapists, fitness trainers, and rehab administrators."
 tags: ["projects", "android", "product", "health", "offline-first"]
 summary: "Offline-first rehab tracking with structured documentation and easy reporting."
+weight: 3
+projectCategories: ["mobile"]
 ---
 
 ## Overview

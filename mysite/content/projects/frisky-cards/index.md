@@ -5,6 +5,8 @@ draft: false
 description: "A memory-based card matching game focused on concentration and recall."
 tags: ["projects", "flutter", "android", "game"]
 summary: "A simple, engaging memory card matching game."
+weight: 10
+projectCategories: ["mobile"]
 ---
 
 ## Overview

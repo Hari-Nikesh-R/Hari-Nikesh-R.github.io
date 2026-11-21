@@ -5,6 +5,8 @@ draft: false
 description: "Mobile shopping app for browsing, ordering, and paying across groceries, electronics, fashion, beauty, and more."
 tags: ["projects", "android", "jetpack-compose", "firebase", "ecommerce"]
 summary: "Android retail app experience: discovery → checkout, with supporting services like trade-ins."
+weight: 4
+projectCategories: ["mobile"]
 ---
 
 ## Overview
